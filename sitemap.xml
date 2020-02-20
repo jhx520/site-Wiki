@@ -5,7 +5,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
 
 <url>
-    <loc>http://wiki.139931.xyz/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2020-02-20</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>

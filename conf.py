@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://wiki.imalan.cn/"
+site_prefix = "http://wiki.139931.xyz/"
 source_dir = "../src/"
 build_dir = "../dist/"
 template = {
@@ -15,18 +15,18 @@ index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "AlanDecode/site-Wiki@gh-pages"
+    "repo": "jhx520/site-Wiki@gh-pages"
 }
 category_by_folder = True
 for_manual_build_trigger = 1
 
 # 站点设置
-site_name = "無知識 | 三無計劃"
+site_name = "三刀鱼"
 site_logo = "${static_prefix}android-chrome-512x512.png"
-site_build_date = "2017-06-29T12:00+08:00"
-author = "熊猫小A"
-email = "hi@imalan.cn"
-author_homepage = "https://www.imalan.cn"
+site_build_date = "2020-02-08T12:00+08:00"
+author = "Anony"
+email = "1046880355@qq.com"
+author_homepage = "http://139931.xyz"
 description = "熊猫小A的Wiki站点"
 key_words = ['Maverick', '熊猫小A', 'Galileo', 'wiki']
 language = 'zh-CN'
@@ -34,40 +34,30 @@ language = 'zh-CN'
 valine = {
     "enable": True,
     "el": '#vcomments',
-    "appId": "2to78D9NRkvN8CTRtIneOcXL-gzGzoHsz",
-    "appKey": "ws5n5WDCDFVg5rhvqPceRiuA",
+    "appId": "uM4TdSOqBxnHFm3gcy0VRcVC-gzGzoHsz",
+    "appKey": "S8PiDx66GTKdtjwmQ5dMnCK6",
     "visitor": True,
     "recordIP": True,
     "placeholder": "请不吝赐教"
 }
 
-external_links = [
-    {
-        "name": "TRIPLE NULL",
-        "url": "https://www.imalan.cn",
-        "brief": "三是虚指。至于是哪三无，我唔知。"
-    },
-    {
-        "name": "BLOG",
-        "url": "https://blog.imalan.cn",
-        "brief": "熊猫小A的博客。隶属于「三无计划」。"
-    },
-    {
-        "name": "LAB",
-        "url": "https://lab.imalan.cn",
-        "brief": "熊猫小A的实验室。隶属于「三无计划」。"
-    },
-    {
-        "name": "GITHUB",
-        "url": "https://github.com/AlanDecode",
-        "brief": "My GitHub"
-    },
-    {
-        "name": "CHANNEL",
-        "url": "https://t.me/triple_null",
-        "brief": "熊猫小A的广播。隶属于「三无计划」。"
-    }
-]
+external_links = [ 
+ { 
+ "name": "三刀魚", 
+ "url": "http://anony.pp.ua", 
+ "brief": "🏄‍ Go My Own Way." 
+ }, 
+ { 
+ "name": "小游戏", 
+ "url": "https://weigame.pp.ua", 
+ "brief": "放松小游戏" 
+ }, 
+ { 
+ "name": "云盘", 
+ "url": "https://onedrive.pp.ua", 
+ "brief": "Anony的云盘" 
+ } 
+ ] 
 nav = [
     {
         "name": "HOME",
@@ -86,23 +76,23 @@ nav = [
     }
 ]
 
-social_links = [
-    {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
-    },
-    {
-        "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
-        "icon": "gi gi-github"
-    },
-    {
-        "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
-        "icon": "gi gi-weibo"
-    }
-]
+social_links = [ 
+ { 
+ "name": "Twitter", 
+ "url": "https://twitter.com/Cv2Ln", 
+ "icon": "gi gi-twitter" 
+ }, 
+ { 
+ "name": "GitHub", 
+ "url": "https://github.com/jhx520", 
+ "icon": "gi gi-github" 
+ }, 
+ { 
+ "name": "Weibo", 
+ "url": "https://weibo.com/2975939221/", 
+ "icon": "gi gi-weibo" 
+ } 
+ ] 
 
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
@@ -124,33 +114,6 @@ head_addon = r'''
 <meta name="baidu-site-verification" content="Or6aUYr0De" />
 '''
 
-footer_addon = r'''
-<a no-style href="http://beian.miit.gov.cn" target="_blank">京ICP备18000133号-1</a> | 
-<a no-style href="https://www.upyun.com" target="_blank">又拍云</a>
-'''
+footer_addon = ''
 
-body_addon = r'''
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?5735ca789e45ace74acc43d939504ebd";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-'''
+body_addon = ''

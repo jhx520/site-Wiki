@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "http://wiki.139931.xyz/"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 template = {
@@ -27,8 +27,8 @@ site_build_date = "2020-02-08T12:00+08:00"
 author = "Anony"
 email = "1046880355@qq.com"
 author_homepage = "http://139931.xyz"
-description = "熊猫小A的Wiki站点"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'wiki']
+description = "你保护世界，我保护你。"
+key_words = ['三刀魚', '科技', 'Anony', '学习', 'Wiki']
 language = 'zh-CN'
 
 valine = {

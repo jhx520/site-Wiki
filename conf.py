@@ -22,7 +22,7 @@ for_manual_build_trigger = 1
 
 # 站点设置
 site_name = "三刀鱼"
-site_logo = "${static_prefix}android-chrome-512x512.png"
+site_logo = "${static_prefix}logo.png"
 site_build_date = "2020-02-08T12:00+08:00"
 author = "Anony"
 email = "1046880355@qq.com"
@@ -60,17 +60,17 @@ external_links = [
  ] 
 nav = [
     {
-        "name": "HOME",
+        "name": "首页",
         "url": "${site_prefix}",
         "target": "_self"
     },
     {
-        "name": "ARCHIVES",
+        "name": "归档",
         "url": "${site_prefix}archives/",
         "target": "_self"
     },
     {
-        "name": "ABOUT",
+        "name": "关于",
         "url": "${site_prefix}about/",
         "target": "_self"
     }
@@ -97,21 +97,8 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="dns-prefetch" href="//static.imalan.cn" />
-<link rel="stylesheet" href="${static_prefix}brand_font/embed.css" />
-<style>.brand{font-family:FZCuJinLFW,serif;font-weight: normal!important;}</style>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-icon" sizes="180x180" href="${static_prefix}apple-touch-icon.png?v=PY43YeeEKx">
-<link rel="icon" type="image/png" sizes="32x32" href="${static_prefix}favicon-32x32.png?v=yyLyaqbyRG">
-<link rel="icon" type="image/png" sizes="16x16" href="${static_prefix}favicon-16x16.png?v=yyLyaqbyRG">
-<link rel="mask-icon" href="${static_prefix}safari-pinned-tab.svg?v=yyLyaqbyRG" color="#505050">
-<link rel="shortcut icon" href="${static_prefix}favicon.ico?v=yyLyaqbyRG">
-<meta name="application-name" content="無知識">
-<meta name="apple-mobile-web-app-title" content="無知識">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="theme-color" content="#000000">
-<meta name="baidu-site-verification" content="Or6aUYr0De" />
+<link rel="apple-touch-icon" sizes="180x180" href="${static_prefix}logo.png">
+<link rel="shortcut icon" href="${static_prefix}favicon.ico">
 '''
 
 footer_addon = ''

@@ -328,3 +328,10 @@
     transform: translate(1.3px, 1px) rotate(-0.5deg)
   }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}

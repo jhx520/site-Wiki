@@ -5,15 +5,78 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
 
 <url>
-    <loc>/about/</loc>
-    <lastmod>2020-02-20</lastmod>
+    <loc>/gallery/</loc>
+    <lastmod>2020-02-22</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
+    <loc>/links/</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>/about/</loc>
+    <lastmod>2020-02-12</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>/archives/appleid/</loc>
+    <lastmod>2020-03-06</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>/archives/alii/</loc>
+    <lastmod>2020-03-06</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>/archives/geshigongchang/</loc>
+    <lastmod>2020-02-26</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>/archives/MV1/</loc>
+    <lastmod>2020-02-22</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>/archives/sstap/</loc>
+    <lastmod>2020-02-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/ps01/</loc>
     <lastmod>2020-02-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>/archives/telegram/</loc>
+    <lastmod>2020-02-15</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>/archives/Checkra1n/</loc>
+    <lastmod>2020-02-11</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>

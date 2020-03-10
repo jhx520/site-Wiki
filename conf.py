@@ -21,14 +21,14 @@ category_by_folder = True
 for_manual_build_trigger = 1
 
 # 站点设置
-site_name = "Charsky's Blog"
+site_name = "三刀魚"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2020-02-08T12:00+08:00"
 author = "Charsky"
 email = "1046880355@qq.com"
 author_homepage = "http://139931.xyz"
 description = "位卑未敢忘忧国"
-key_words = ['Charsky', '科技', '生活志', '学习', 'Blog']
+key_words = ['Charsky', '科技', '生活志', '三刀魚', 'Blog']
 language = 'zh-CN'
 
 valine = {

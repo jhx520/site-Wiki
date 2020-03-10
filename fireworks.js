@@ -122,3 +122,10 @@ if (canvasEl) {
     setCanvasSize(),
     window.addEventListener("resize", setCanvasSize, !1)
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
